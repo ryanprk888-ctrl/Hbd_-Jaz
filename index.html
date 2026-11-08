@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#170d13">
+  <title>Jaz & Dam — 18 años 💗</title>
+  <style>
+    :root { --pink:#ff8fbd; --soft:#ffd6e7; --ink:#170d13; }
+    * { box-sizing:border-box; }
+    body {
+      margin:0; min-height:100vh; overflow-x:hidden; color:#fff4f8;
+      font-family: Georgia, 'Times New Roman', serif;
+      background: radial-gradient(ellipse at 50% 15%, #482033 0%, #24121c 42%, #100a0f 100%);
+    }
+    .hearts { position:fixed; inset:0; overflow:hidden; pointer-events:none; z-index:0; }
+    .heart { position:absolute; bottom:-50px; color:#ff9bc5; opacity:.72; animation: floatUp linear infinite; text-shadow:0 0 12px #ff5ca7; }
+    @keyframes floatUp { to { transform:translateY(-115vh) rotate(25deg); opacity:0; } }
+    main { position:relative; z-index:1; width:min(92%,560px); margin:auto; padding:42px 0 55px; text-align:center; }
+    .eyebrow { color:#ffb9d5; letter-spacing:.24em; text-transform:uppercase; font:11px Arial,sans-serif; }
+    h1 { margin:14px 0 4px; font-size:clamp(43px,11vw,68px); font-weight:normal; font-style:italic; line-height:1.02; text-shadow:0 0 22px #ff76b3; }
+    h1 span { display:block; }
+    .age { margin:10px 0 27px; color:#ffd4e5; letter-spacing:.35em; font-size:21px; }
+    .photo-frame { width:min(86%,390px); margin:0 auto 25px; padding:11px 11px 17px; background:#f8eaf0; transform:rotate(-2deg); box-shadow:0 12px 38px #0009,0 0 25px #ff85b733; }
+    .photo-frame img { display:block; width:100%; max-height:520px; object-fit:cover; filter:grayscale(100%); }
+    .photo-caption { color:#4a2638; padding-top:10px; font-size:20px; font-style:italic; }
+    .intro { color:#ffd4e5; font-size:17px; line-height:1.7; margin:30px auto; max-width:440px; }
+    .open-btn { border:1px solid #ff9bc5; border-radius:999px; background:#ff8fbd18; color:#fff1f7; padding:15px 27px; font:16px Georgia,serif; cursor:pointer; box-shadow:0 0 22px #ff6eaa55; transition:.25s; }
+    .open-btn:hover { background:#ff8fbd35; transform:translateY(-2px); }
+    .letter { display:none; margin:25px auto 0; padding:27px 24px; text-align:left; line-height:1.85; color:#51283c; background:linear-gradient(145deg,#ffe5ef,#f8c9dc); border-radius:4px; box-shadow:0 12px 35px #0006; animation:appear .55s ease both; }
+    .letter.show { display:block; }
+    .letter h2 { text-align:center; font-size:29px; font-weight:normal; font-style:italic; margin:0 0 15px; }
+    .letter p { margin:0 0 14px; }
+    .signature { text-align:right; font-style:italic; font-size:21px; margin-top:20px!important; }
+    @keyframes appear { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+    .music { margin:27px auto 0; padding:15px; border:1px solid #ff9bc566; border-radius:16px; background:#ffffff0a; max-width:430px; }
+    .music-title { font-size:14px; color:#ffd4e5; margin-bottom:10px; }
+    audio { width:100%; height:36px; }
+    .hint { color:#d9a9bd; font:11px Arial,sans-serif; margin-top:8px; }
+    footer { margin-top:35px; color:#ffb9d5; letter-spacing:.15em; font-size:14px; }
+    @media (prefers-reduced-motion: reduce) { *,*::before,*::after { animation-duration:.01ms!important; animation-iteration-count:1!important; scroll-behavior:auto!important; } }
+  </style>
+</head>
+<body>
+  <div class="hearts" id="hearts" aria-hidden="true"></div>
+  <main>
+    <div class="eyebrow">un día especial para alguien especial</div>
+    <h1><span>Feliz</span><span>cumpleaños</span></h1>
+    <div class="age">♡ 18 AÑOS ♡</div>
+
+    <figure class="photo-frame">
+      <img src="./foto-jaz.jpg" alt="Fotografía especial para Jaz">
+      <figcaption class="photo-caption">Still with you ♡</figcaption>
+    </figure>
+
+    <p class="intro">18 años de existir y hacer un poquito más bonito este mundo. Hoy todo el cariño es para vos. 💗</p>
+    <button class="open-btn" id="openLetter" type="button" aria-expanded="false">💌 Abrir mi cartita</button>
+
+    <section class="letter" id="letter" aria-live="polite">
+      <h2>Para Jaz ♡</h2>
+      <p>¡Feliz cumpleaños, Jazz! 💗</p>
+      <p>Comienzo deseándote lo mejor del mundo. ¡Muchísimas felicidades! Espero que pases un día increíble, rodeada de las personas que querés y de todo el cariño que merecés.</p>
+      <p>Sos una niña excelente y una persona que agradezco muchísimo haber conocido. Parece mentira lo rápido que pasa el tiempo: ya son tres años desde que nos conocemos. Pensar en cuando tenías 15 me da un poquito de nostalgia; qué bonito ha sido coincidir con vos durante todo este tiempo.</p>
+      <p>Sabés que, aunque a veces seamos algo distantes —por no decir demasiado—, para mí no sos una desconocida. Al contrario, sos alguien a quien aprecio un montón, a quien quiero muchísimo y por quien siempre voy a estar. Quiero que sepás que, incluso desde la distancia, podés contar conmigo; siempre estoy para vos.</p>
+      <p>Te quiero mucho, Jazz. Espero que esta nueva etapa venga llena de momentos inolvidables, sueños cumplidos, tranquilidad y muchísimas razones para sonreír. Que Dios te regale muchos años más de vida y te acompañe en cada paso que des.</p>
+      <p>Disfrutá muchísimo tus 18. ¡Feliz cumpleaños una vez más! 💗</p>
+      <p class="signature">Con mucho cariño,<br>Jaz &amp; Dam ♡</p>
+    </section>
+
+    <div class="music">
+      <div class="music-title">♫ BTS — Mikrokosmos ♡</div>
+      <audio controls preload="none">
+        <source src="./BTS_Mikrokosmos.mp3" type="audio/mpeg">
+        Tu navegador no puede reproducir este audio.
+      </audio>
+      <div class="hint">Añadí el archivo BTS_Mikrokosmos.mp3 a esta misma carpeta para activar la música.</div>
+    </div>
+    <footer>JAZ & DAM · HECHO CON CARIÑO 💗</footer>
+  </main>
+  <script>
+    const heartLayer = document.getElementById('hearts');
+    const symbols = ['💗','♡','♥'];
+    for (let i = 0; i < 24; i++) {
+      const heart = document.createElement('span');
+      heart.className = 'heart';
+      heart.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+      heart.style.left = Math.random() * 100 + '%';
+      heart.style.fontSize = (13 + Math.random() * 19) + 'px';
+      heart.style.animationDuration = (9 + Math.random() * 12) + 's';
+      heart.style.animationDelay = (-Math.random() * 18) + 's';
+      heartLayer.appendChild(heart);
+    }
+    const button = document.getElementById('openLetter');
+    const letter = document.getElementById('letter');
+    button.addEventListener('click', () => {
+      const isOpen = letter.classList.toggle('show');
+      button.setAttribute('aria-expanded', String(isOpen));
+      button.textContent = isOpen ? '💗 Cerrar cartita' : '💌 Abrir mi cartita';
+      if (isOpen) letter.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  </script>
+</body>
+</html>

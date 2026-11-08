@@ -1,0 +1,11 @@
+JAZ & DAM — CUMPLEAÑOS 18
+
+Archivos que deben quedar juntos en la raíz del repositorio de GitHub:
+- index.html
+- foto-jaz.jpg
+- BTS_Mikrokosmos.mp3 (opcional; debes añadir tú el audio)
+
+La fotografía ya está incluida y el HTML apunta a ./foto-jaz.jpg.
+Para la música, renombra el MP3 a BTS_Mikrokosmos.mp3 y súbelo junto a index.html.
+
+En GitHub: abre el repositorio Hbd_-, selecciona Add file > Upload files, sube estos archivos y confirma el commit. GitHub Pages publicará los cambios al cabo de unos momentos.
